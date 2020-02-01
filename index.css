@@ -1,0 +1,132 @@
+.main-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('images/container-image.jpg');
+    background-size: cover;
+}
+
+.icons-custom {
+    width: 15px;
+}
+
+.navbar-brand {
+    color: wheat !important;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+}
+
+.navbrand-custom {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.form-control-custom {
+    background-color: #343A40 !important;
+    border: 0;
+    box-shadow: none;
+    color: white !important;
+    width: 100px !important;
+}
+
+input[type="search"]::placeholder {
+    color: white;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+input[type="search"]:focus {
+    border-color: black;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px black;
+}
+
+.container-custom {
+    border-bottom: 2px solid gray;
+}
+
+.navbar-toggler {
+    border-color: silver !important;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav a {
+    color: white !important;
+}
+
+.navbar-nav a:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.navbar .navbar-nav .nav-item.active > a {
+    color: gray !important;
+}
+
+.section {
+    background-image: url('images/guitar-man.jpg');
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.btn-section-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-section-title:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.section-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 25px;
+    margin-left: -1px;
+}
+
+.profile-text {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.fa-circle {
+    font-size: 3px;
+    position: relative;
+    bottom: 2px;
+}
+
+.aside1 {
+    background-image: url('images/pomodoro2.jpg');
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.btn-success {
+    background-color: lime !important;
+    border: 1px solid lime !important;
+}
+
+.aside1-text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.aside2 {
+    background-image: url('images/black\ beetle.jpg');
+    background-size: cover;
+    padding-top: 150px;
+}
